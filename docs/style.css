@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.185)), url(../psb/img/hdr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    background-color: transparent;
+}
+
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    padding: 15px 25px;
+    display: inline-block;
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    padding: 24px 25px;
+    display: inline-block;
+    position: relative;
+}
+
+header ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #d87151;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header ul li:hover::after {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #d87151;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*---Home---*/
+.content {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.content h2 {
+    color: #32aaaa;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.content h3 {
+    color: #155472;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0 10px;
+}
+
+.content h4 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0 40px;
+}
+
+.daftar-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: #d87151;
+    position: relative;
+    cursor: pointer;
+}
+
+.daftar-btn:hover {
+    border: 2px solid #d87151;
+    background: transparent;
+    color: #d87151;
+    transition: 0.5s;
+}
+
+/*---Jalur---*/
+.jalur {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jalur h1 {
+    color: #155472;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.jalur p {
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.jalur-kl h2 {
+    color: #32aaaa;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.jalur-kl h3 {
+    color: #d87151;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.baris {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jalur-kl {
+    flex-basis: 31%;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #eebc69;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+/*---Jadwal---*/
+.jadwal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jadwal h2 {
+    color: #155472;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.jadwal h3 {
+    color: #d87151;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jadwal p {
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jadwal-kl {
+    flex-basis: 31%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.jadwal-kl:hover {
+    box-shadow: 0 0 20px 0px #eebc69;
+}
+
+.whatsapp {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: #25d366;
+    position: relative;
+    cursor: pointer;
+}
+
+.whatsapp:hover {
+    border: 1px solid #25d366;
+    background: transparent;
+    color: #25d366;
+    transition: 0.5s;
+}
+
+.instagram {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: #5851DB;
+    position: relative;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    border: 1px solid#5851DB;
+    background: transparent;
+    color: #5851DB;
+    transition: 0.5s;
+}
