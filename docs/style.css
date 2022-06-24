@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.29),rgba(255, 255, 255, 0.29)), url(./img/Capture.PNG);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.29),rgba(255, 255, 255, 0.29)), url(Capture.PNG);
     background-position: center;
     background-size: cover;
     position: relative;
