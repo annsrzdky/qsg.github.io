@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Template</title>
+</head>
+
+<body>
+    <!-------------------------------Sub Header------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../QSG/img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="template.html">Template</a></li>
+                    <li><a href="">Profile</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Template</h1>
+    </section>
+    <section class="template">
+        <h2>Latest themes</h2>
+        <div class="row">
+            <div class="template-col">
+                <img src="./img/Aqua.png">
+                <div class="layer">
+                    <h4>Aquatic</h4>
+                    <a href="./file/Aqua.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+            <div class="template-col">
+                <img src="./img/Tosca.png">
+                <div class="layer">
+                    <h4>Tosca</h4>
+                    <a href="./file/Tosca.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+            <div class="template-col">
+                <img src="./img/Shigellosis.png">
+                <div class="layer">
+                    <h4>Shigellosis</h4>
+                    <a href="./file/Shigellosis.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="template-col">
+                <img src="./img/Floral.png">
+                <div class="layer">
+                    <h4>Floral</h4>
+                    <a href="./file/Floral.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+            <div class="template-col">
+                <img src="./img/Moona.png">
+                <div class="layer">
+                    <h4>Moona</h4>
+                    <a href="./file/Moona.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+            <div class="template-col">
+                <img src="./img/Forest.png">
+                <div class="layer">
+                    <h4>Forest</h4>
+                    <a href="./file/Forest.pptx" class="download-btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------Footer------------------------------->
+    <section class="footer">
+        <h4>QSG Team</h4>
+        <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Technopreneurship</p>
+    </section>
+
+    <!-------------------------------JScript for Toggle Menu------------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
